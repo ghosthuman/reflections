@@ -3,3 +3,6 @@ A. Mostly when I have multiple people working on the same repository. Also if i 
 
 Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A. Having to pull manually rether than Git automatically synchronising it regularly, has the same advanatges as havving to commit manually rather than automatically. Git wouldnt know the appropriate time to sync. Git could sync at a wrong time, when you're in the middle of something and hence end up pushing incomplete code which could cause problems. Or maybe push the a file which essentially does the same thing as the previous one.
+
+Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A. Forks are exclusive to only GitHub. Forks are used when you want to modify the project on a different account. Clones are done between GitHub and local machine or on the same local machine to create 2 instances of a repository. Branches are done within a repository. Branches come into the picture when you want to go on path other than the direction it is going on. Or you want to add a new feature but are not sure about it.
