@@ -6,3 +6,6 @@ A. Having to pull manually rether than Git automatically synchronising it regula
 
 Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A. Forks are exclusive to only GitHub. Forks are used when you want to modify the project on a different account. Clones are done between GitHub and local machine or on the same local machine to create 2 instances of a repository. Branches are done within a repository. Branches come into the picture when you want to go on path other than the direction it is going on. Or you want to add a new feature but are not sure about it.
+
+Q. What is the benefit of having a copy of the last known state of the remote stored locally?
+A. The benefit of having the last known copy is that you can stay updated with it in case you have to work locally, i.e make changes to the project without pushing them to the remote for some time. So later the integration would be smooth and well understood.
