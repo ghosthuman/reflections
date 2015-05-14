@@ -12,3 +12,6 @@ A. In situations like, as mentioned in the videos, experimentation with not a cl
 
 Q. How do the diagrams help you visualize the branch structure?
 A. Diagrams provides clarity to the entire branching concepts. By being able to visualize the branch strucuture the neccessity to how and when to involve new branches becomes apparent which helps in maintaining a clear robust strucutre of the project.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A. The two branches form a common tip with the name corresponding to the currently checkedout branch. So we get a commit  which includes the properties of both the branches. We represent it in that way because, after merging the new commit (the tip) has 2 parents, least commits of each of the branches. And since git works on parent-child concept rather than branches, it is sensible to show both the parents. Though later on we can sever the one of the branches to keep only the master or dominant branch available. The severing is optional.
