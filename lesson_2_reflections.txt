@@ -1,5 +1,8 @@
-Q.What happens when you initialize a repository? Why do you need to do it?
+Q. What happens when you initialize a repository? Why do you need to do it?
 A.Initializing a repository maybe makes the directory git compatible. This ensures that all the directory becomes a repository and all the files can be handled.
 
-Q.How is the staging area different from the working directory and the repository? What value do you think it offers?
-A.The working directory is the place where though all the files are present, none are tracked/managed by git. The staging area is like a transtition phase between the working directory and the repository in the sense that, the files in the staging are not commited like the repository, bu are still tracked by the git. It gives a rough canvas, where we can be sure if we really want to commit a file or not.
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+A. The working directory is the place where though all the files are present, none are tracked/managed by git. The staging area is like a transtition phase between the working directory and the repository in the sense that, the files in the staging are not commited like the repository, bu are still tracked by the git. It gives a rough canvas, where we can be sure if we really want to commit a file or not.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+A. After making the changes in the working directory, we can choose to only add one change to the staging area. This enables us to commit only that change, hence separating the changes logically. After commiting that change, the files relating to the next single logical change can be loaded onto the staging area, which then can be commited. And so on. This helps us by allowing us to make several changes at one time, but commiting them separately.
