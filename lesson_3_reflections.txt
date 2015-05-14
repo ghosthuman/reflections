@@ -9,3 +9,6 @@ A. Forks are exclusive to only GitHub. Forks are used when you want to modify th
 
 Q. What is the benefit of having a copy of the last known state of the remote stored locally?
 A. The benefit of having the last known copy is that you can stay updated with it in case you have to work locally, i.e make changes to the project without pushing them to the remote for some time. So later the integration would be smooth and well understood.
+
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A. Maybe usage of some file sharing systems like Dropbox would have had to suffice. Things that would be easier would maybe be that in order to make changes permanent the 2-step process of git, add then commit, wouldn't be needed. That would be a lot faster and convenient. However this excat thing would turn around and be really painful when we had to execute version control. Also, working simultaneously would be extremely difficult compared to what Git and GitHub offers.
