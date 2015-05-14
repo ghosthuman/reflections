@@ -1,0 +1,22 @@
+Q.How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A.I could compare the set of differences between the files, pointed by the FC command on the windows command prompt, which then enabled me to pin point the difference which was responsible for the occurance of the problem.
+
+Q.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A.We can refer to the changes  made over the course of the history, and then retrospect about the changes that could have been avoided in the earlier versions if we had thought more. This would expand our thinking domain and hence make correct decision quicker.
+
+Q.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+A.Pros would be as stated, to have customized versions being commited. This would be easily compatible with the programmer as it would help in looking back on the versions/changes which you thought were neccessary to commit.
+Cons would be the obvious that you forget to commit. This isnt as innocuous as seems, beacuse often while coding the secondary things become irrelevant. Maybe it's just to me, Version Control is still not as important as it is said in the videos. Atleast, at this point this is what i think.
+
+Q.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A.Because Git is better i guess. Also, google docs is meant for the general population, which comprises of non-programmers too. The non-coders wouldn't need the mutiple files commit.
+
+Q.How can you use the commands git log and git diff to view the history of files?
+A.git log provides us with the entire history of the commits made in the form of a list, where each entry has a id, aling with the date, time and author regarding that particular commit. Along with this the commit message is displayed which helps in identifying the version.
+git diff automates the task of finding the differences between 2 particualr versions. The changes are stated in a colour coded fashion which lines were added and which were removed. This makes the comparision incredibly more convinient.
+
+Q.How might using version control make you more confident to make changes that could break something?
+A.Version controls provides us with a time machine of sorts at our disposal. If at any point if things seem to go haywire, git checkout to the rescue. The fact that we have this time machine, enables us to take a more bold approach while experimenting with the project. Earlier each step had to be taken caution which hampered new measures from being taken. Version control allows us to behave more reckless to experiment at our whim.
+
+Q.Now that you have your workspace set up, what do you want to try using Git for?
+A.The future lectures? Maybe i'll start the preliminary phases of my final year project. But wait, i still don't know how to integrate my project with git...
