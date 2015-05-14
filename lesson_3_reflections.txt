@@ -1,0 +1,2 @@
+Q. When would you want to use a remote repository rather than keeping all your work local?
+A. Mostly when I have multiple people working on the same repository. Also if i work from different machines, say home and office remote repository would be handy. Another case would be i wanted to show my project publicly, and want input from the community. Though that could be said to come under the first situation, still the idea for writing the first situation was for a dedicated team point of view.
