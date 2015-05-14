@@ -1,2 +1,5 @@
 Q. When would you want to use a remote repository rather than keeping all your work local?
 A. Mostly when I have multiple people working on the same repository. Also if i work from different machines, say home and office remote repository would be handy. Another case would be i wanted to show my project publicly, and want input from the community. Though that could be said to come under the first situation, still the idea for writing the first situation was for a dedicated team point of view.
+
+Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A. Having to pull manually rether than Git automatically synchronising it regularly, has the same advanatges as havving to commit manually rather than automatically. Git wouldnt know the appropriate time to sync. Git could sync at a wrong time, when you're in the middle of something and hence end up pushing incomplete code which could cause problems. Or maybe push the a file which essentially does the same thing as the previous one.
