@@ -1,0 +1,5 @@
+Q.What happens when you initialize a repository? Why do you need to do it?
+A.Initializing a repository maybe makes the directory git compatible. This ensures that all the directory becomes a repository and all the files can be handled.
+
+Q.How is the staging area different from the working directory and the repository? What value do you think it offers?
+A.The working directory is the place where though all the files are present, none are tracked/managed by git. The staging area is like a transtition phase between the working directory and the repository in the sense that, the files in the staging are not commited like the repository, bu are still tracked by the git. It gives a rough canvas, where we can be sure if we really want to commit a file or not.
