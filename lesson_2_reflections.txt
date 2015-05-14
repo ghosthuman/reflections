@@ -6,3 +6,6 @@ A. The working directory is the place where though all the files are present, no
 
 Q. How can you use the staging area to make sure you have one commit per logical change?
 A. After making the changes in the working directory, we can choose to only add one change to the staging area. This enables us to commit only that change, hence separating the changes logically. After commiting that change, the files relating to the next single logical change can be loaded onto the staging area, which then can be commited. And so on. This helps us by allowing us to make several changes at one time, but commiting them separately.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. In situations like, as mentioned in the videos, experimentation with not a clear intent to incorporate into the main project, branches seem helpful. So, if i wanted to try taking my project in a different direction, about which i wasn't sure would improve the quality of the software, i would like to make the changes in the new branch and keep working on it as a side project, while simultaneously continuing the main project. This gives me the option to later incorporate or discard the expiremented branch as required.
