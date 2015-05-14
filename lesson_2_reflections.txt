@@ -9,3 +9,6 @@ A. After making the changes in the working directory, we can choose to only add 
 
 Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A. In situations like, as mentioned in the videos, experimentation with not a clear intent to incorporate into the main project, branches seem helpful. So, if i wanted to try taking my project in a different direction, about which i wasn't sure would improve the quality of the software, i would like to make the changes in the new branch and keep working on it as a side project, while simultaneously continuing the main project. This gives me the option to later incorporate or discard the expiremented branch as required.
+
+Q. How do the diagrams help you visualize the branch structure?
+A. Diagrams provides clarity to the entire branching concepts. By being able to visualize the branch strucuture the neccessity to how and when to involve new branches becomes apparent which helps in maintaining a clear robust strucutre of the project.
